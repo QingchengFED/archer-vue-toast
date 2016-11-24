@@ -14,10 +14,10 @@ new Vue({
       this.$toast();
     },
     showFadeupToast () {
-      this.$toast({txt: '向上渐隐', transition: 'fadeup'})
+      this.$toast({txt: 'fadeup', transition: 'fadeup'})
     },
     showQuickToast () {
-      this.$toast({txt: '1s后消失', time: 1000})
+      this.$toast({txt: 'disappear after 1s', time: 1000})
     }
   }
 })

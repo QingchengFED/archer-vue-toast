@@ -10,7 +10,7 @@ export default {
         el: document.createElement('div'),
         data () {
           return {
-            txt: config.txt || options.txt || '这是toast',
+            txt: config.txt || options.txt || 'error',
             time: config.time || options.time || 2000,
             transition: config.transition || options.transition || 'fade',
             show: !1
