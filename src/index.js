@@ -13,6 +13,7 @@ export default {
             txt: config.txt || options.txt || 'error',
             time: config.time || options.time || 2000,
             transition: config.transition || options.transition || 'fade',
+            style: config.style || options.style || {},
             show: !1
           }
         },

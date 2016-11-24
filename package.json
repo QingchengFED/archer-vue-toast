@@ -1,6 +1,6 @@
 {
   "name": "archer-vue-toast",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A vue toast component for qingcheng mobile projects.",
   "main": "dist/index.js",
   "scripts": {

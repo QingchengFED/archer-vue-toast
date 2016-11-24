@@ -16,9 +16,22 @@ Vue.use(VueToast);
 * @usage
 * vm.$toast(options);
 */
-vm.$confirm({
+vm.$toast({
     txt: 'upload error', //default: "error"
     transition: 'fadeup', //default: 'fade'
-    time: 1000 //default: 2000ms
-}).
+    time: 1000, //default: 2000ms
+    style: {"margin-top": "200px"}
+})
+```
+
+### Use options
+```
+/*
+* @usage
+* var VueToast = require('archer-vue-toast');
+* Vue.use(VueToast, [options])
+* options work on the toast Element, supporting txt, transition, time and style
+*/
+var VueToast = require('archer-vue-toast');
+Vue.use(VueToast, {txt: "error", transition: "fadeup", time: 1000, style: {"margin-top": "150px"}});
 ```
