@@ -31,17 +31,17 @@
 }
 
 //过渡动画
-.fade-transition {
+.fade-enter-active, .fade-leave-active {
   transition: all .5s ease;
 }
 
-.fade-enter, .fade-leave {
+.fade-enter, .fade-leave-active {
   opacity: 0;
 }
 
 
 //向上渐隐
-.fadeup-transition {
+.fadeup-enter-active, .fadeup-leave-active {
   transition: all .5s ease;
 }
 
@@ -49,7 +49,7 @@
   opacity: 0;
   top: 30px;
 }
-.fadeup-leave {
+.fadeup-leave-active {
   opacity: 0;
   top: -20px;
 }

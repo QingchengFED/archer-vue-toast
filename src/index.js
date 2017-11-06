@@ -37,8 +37,8 @@ export default {
           }, _self.time);
         }
       });
-
-      toastInstance.$appendTo(document.body);
+      
+      document.body.appendChild(toastInstance.$el);
     }
 
   }
